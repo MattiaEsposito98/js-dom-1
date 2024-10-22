@@ -1,11 +1,18 @@
 console.log("Lampadina")
-function clickButtonOn() {
+
+myButton.addEventListener('click', function () {
   const img = document.getElementById("changeImg")
   const myButton = document.getElementById("myButton")
-
-  img.src = './img/yellow_lamp.png'
+  
+  img.src = './img/white_lamp.png'
   myButton.innerText = "Spegni"
-}
+})
+
+
+
+
+
+
 
 
 
